@@ -1,5 +1,5 @@
 function carga(){
-  var jobs = ["Developer", "Communications Engineer", "Music Lover", "Writer", ""];
+  var jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
   var i=0;
   setInterval(function(){
       if(i==jobs.length){
