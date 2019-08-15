@@ -115,6 +115,7 @@ body {
 
 #profile_photo{
   padding-left: 2rem;
+  margin-bottom: 2rem;
   transform:rotate(90deg);
 }
 
