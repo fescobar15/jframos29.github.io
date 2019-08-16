@@ -7,7 +7,7 @@ function carga(){
       }
       document.getElementById("abilities").innerText=jobs[i];
       i++;
-    }, 3000);
+    }, 3010);
 }
 
 $(function() {
