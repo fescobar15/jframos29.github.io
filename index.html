@@ -24,7 +24,7 @@
 </head>
 
 <body onload="carga()">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cover-container container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead mb-auto">
       <div class="inner">
         <h3 class="masthead-brand">Juan Felipe Ramos</h3>
@@ -43,8 +43,9 @@
       <div class="row">
         <div class="col-5">
           <div data-aos="fade-left">
-            <h1> About me</h1>
-            <p data-aos="fade-left">I was born in Bogotá in 1998. I've been trying to live my life in such a way I can
+            <h1 class="about-me"> About me</h1>
+            <p class="about-me">I was born in Bogotá in 1998. I've been trying to live my life in
+              such a way I can
               be as happiest as
               possible. I've tried to do what I love (maybe this page it's part of it) and I've met wonderful people
               all
@@ -59,14 +60,29 @@
           </div>
         </div>
       </div>
-    </main>
-    <footer class="mastfoot mt-auto">
-      <div class="inner">
-        <p>Contact me! <a href="#"><img id="email" height="13rem" width="17rem" src="./images/email.png"
-              alt="Email link"></a></p>
+      <div class="row">
+        <div class="col-5" data-aos="fade-up">
+          <iframe scrolling="no" frameborder="0" allowTransparency="true"
+            src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=ff0000&layout=&size=medium&type=playlist&id=1224646003&app_id=1"
+            width="300" height="300">
+          </iframe>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5" data-aos="fade-up">
+          <h1 class="about-me"> My Music</h1>
+          <p class="about-me">
+            Music is everything.
+          </p>
+        </div>
       </div>
-    </footer>
   </div>
+  </main>
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Contact me! <a href="#"><img id="email" height="13rem" width="17rem" src="./images/email.png"
+            alt="Email link"></a></p>
+    </div>
+  </footer>
 </body>
 
 </html>
