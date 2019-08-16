@@ -1,6 +1,8 @@
+"use strict";
+
 function carga(){
-  var jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
-  var i=0;
+  let jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
+  let i=0;
   setInterval(function(){
       if(i==jobs.length){
         i=0;
@@ -8,6 +10,18 @@ function carga(){
       document.getElementById("abilities").innerText=jobs[i];
       i++;
     }, 3000);
+}
+
+function cambiar(){
+  let top=21;
+  let i=1;
+  setInterval(function(){
+      if(i==top){
+        i=1;
+      }
+      document.getElementById("family_photo").setAttribute("src","./images/"+i+".jpg");
+      i++;
+    }, 1500);
 }
 
 $(function() {

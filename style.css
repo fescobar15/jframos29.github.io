@@ -1,56 +1,58 @@
-
-#abilities{
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 3s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    margin-left: 0.18rem;
+#abilities {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  margin-left: 0.18rem;
 }
 
-.cambio{
+.cambio {
   background: white;
   -webkit-text-fill-color: #000;
 }
 
-html{
+html {
   height: 100%;
+}
+
+p {
+  text-align: justify;
 }
 
 body {
   height: 100%;
   background-color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
 }
 
 @keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes animate {
   0% {
     background-position: -500%;
   }
+
   100% {
     background-position: 500%;
   }
-}
-
-
-body {
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
 }
 
 .cover-container {
@@ -78,7 +80,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -91,6 +93,7 @@ body {
   .masthead-brand {
     float: left;
   }
+
   .nav-masthead {
     float: right;
   }
@@ -100,6 +103,7 @@ body {
   margin-top: 15rem;
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
@@ -109,25 +113,41 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
-#extra{
-  margin-bottom: 20rem;
+.welcome {
+  height: 60vh;
 }
 
-#profile_photo{
-  padding-left: 2rem;
-  margin-bottom: 2rem;
-  transform:rotate(90deg);
+
+#email {
+  margin-left: 1rem;
 }
 
-#email{
-  margin-left:  1rem;
-}
-
-.row{
+.row {
   margin-bottom: 5rem;
 }
 
-.about-me{
- text-align: center;
+.about-me {
+  text-align: justify;
 }
 
+.music, .photoContainer, #frameA {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#frameA {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 20vh;
+}
+
+#family_photo{
+  max-height: 50vh;
+}
+
+#photo{
+  padding-bottom: 100vh;
+  margin-bottom: 100vh;
+}
