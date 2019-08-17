@@ -13,7 +13,7 @@ function carga(){
 }
 
 function cambiar(){
-  let top=21;
+  let top=22;
   let i=1;
   setInterval(function(){
       if(i==top){

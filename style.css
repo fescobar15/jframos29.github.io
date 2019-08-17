@@ -118,7 +118,7 @@ body {
 }
 
 
-#email {
+.email {
   margin-left: 1rem;
 }
 
@@ -130,7 +130,7 @@ body {
   text-align: justify;
 }
 
-.music, .photoContainer, #frameA {
+.music, .things, .photoContainer, #frameA {
   text-align: center;
   margin: 0 auto;
   width: 100%;
@@ -157,4 +157,9 @@ body {
 #photo{
   padding-bottom: 100vh;
   margin-bottom: 100vh;
+}
+
+#despedida{
+  text-align: right;
+  font-family: 'Amatic SC', cursive;
 }
