@@ -31,10 +31,10 @@ function cambiar(){
 //Change background color
 function fondo() {
   $(window).scroll(function () {
-     if ($(this).scrollTop() > 250) {
+     if ($(this).scrollTop() > 350) {
         $('body').addClass('cambio')
      }
-     if ($(this).scrollTop() < 250) {
+     if ($(this).scrollTop() < 350) {
         $('body').removeClass('cambio')
      }
   });
