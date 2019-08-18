@@ -17,7 +17,7 @@ function carga(){
 //Change family pictures
 
 function cambiar(){
-  let top=22;
+  let top=23;
   let i=1;
   setInterval(function(){
       if(i==top){
