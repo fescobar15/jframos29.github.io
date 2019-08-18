@@ -86,7 +86,7 @@ body {
   margin-left: 1rem;
 }
 
-.row {
+main>.row {
   margin-bottom: 5rem;
 }
 
@@ -96,6 +96,11 @@ body {
 
 .about-me2{
   margin-top: 5rem;
+}
+
+.projects{
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .music, .things, .photoContainer{
@@ -144,7 +149,6 @@ body {
 
 #abilities {
   position: relative;
-  overflow: hidden;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;

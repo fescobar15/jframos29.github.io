@@ -1,6 +1,5 @@
 "use strict";
 
-
 //Change abilities in welcome div
 function carga(){
   let jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
@@ -15,7 +14,6 @@ function carga(){
 }
 
 //Change family pictures
-
 function cambiar(){
   let top=24;
   let i=1;
@@ -25,7 +23,7 @@ function cambiar(){
       }
       document.getElementById('family_photo').setAttribute('src','./images/'+i+'.jpg');
       i++;
-    }, 1500);
+    }, 1000);
 }
 
 //Change background color
@@ -41,8 +39,6 @@ function fondo() {
 }
 
 //Enable AOS
-
 $(function() {
   AOS.init();
 });
-
