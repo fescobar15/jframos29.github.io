@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
+  -moz-background-clip: text;
+  -moz-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   margin-left: 0.18rem;
@@ -31,30 +33,6 @@ body {
   color: #fff;
 }
 
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-
-  100% {
-    background-position: 500%;
-  }
-}
-
 .cover-container {
   max-width: 42em;
 }
@@ -75,9 +53,11 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
+.naviga:hover, .naviga:focus,
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
+  color: #fff;
 }
 
 .nav-masthead .nav-link+.nav-link {
@@ -87,6 +67,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.naviga{
+  color: #fff;
 }
 
 @media (min-width: 48em) {
@@ -117,7 +101,6 @@ body {
   height: 60vh;
 }
 
-
 .email {
   margin-left: 1rem;
 }
@@ -130,7 +113,7 @@ body {
   text-align: justify;
 }
 
-.music, .things, .photoContainer, #frameA {
+.music, .things, .photoContainer{
   text-align: center;
   margin: 0 auto;
   width: 100%;
@@ -162,4 +145,14 @@ body {
 #despedida{
   text-align: right;
   font-family: 'Amatic SC', cursive;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
 }

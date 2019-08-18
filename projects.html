@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="./images/fr.png" />
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>Juan Felipe Ramos</title>
+  <script>
+    carga();
+    cambiar();
+    fondo();
+  </script>
+</head>
+
+<body>
+  <div class="cover-container container-fluid d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <a class="naviga" href="./index.html">
+          <h3 class="masthead-brand">Juan Felipe Ramos</h3>
+        </a>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link" href="./index.html">Who Am I?</a>
+          <a class="nav-link active" href="./projects.html">My Projects</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="inner cover">
+      <div class="welcome">
+        <h1 class="cover-heading">Welcome!</h1>
+        <p class="lead">Let's see a little bit more about me.</p>
+        <p class="lead" id="soy">At first, I'm a <span id="abilities"></span></p>
+        <p class="lead">But when you dig deeper,</p>
+      </div>
+      <div class="row about-me">
+        <div class="col-sm container-fluid" data-aos="fade-left">
+          <h1 class="about-me"> About me</h1>
+          <p class="about-me">I was born in Bogotá in 1998. I've been trying to live my life in
+            such a way I can
+            be as happiest as
+            possible. I've tried to do what I love (maybe this page it's part of it) and I've met wonderful people
+            all
+            along the way (but we're going to focus on that later). Those things have inspired to show a part of me
+            and I guess this is a little result.
+          </p>
+        </div>
+        <div class="container-fluid col-sm photoContainer" data-aos="fade-right">
+          <img id="profile_photo" width="200vw" src="./images/me.jpg" alt="My picture">
+        </div>
+      </div>
+      <div id="photos" class="row about-me">
+        <div class="container-fluid col-sm fijo" data-aos="fade-left">
+          <img id="family_photo" width="100%" src="./images/1.jpg" alt="My family pictures">
+          <div></div>
+        </div>
+        <div class="col-sm container-fluid" data-aos="fade-right">
+          <p class="about-me">
+            As I said, I've been surrounded with amazing people all along the way and these are just a few moments (and
+            not all the people) I'd
+            like to share with
+            you. With them, my family, I've certainly learnt that if they surround you, they define you (that's why I
+            think I am a
+            great person) and I'm proudly
+            grateful to them all (you can see it because of my constant smile).
+            Even if the whole of life becomes an act of letting go (Yann Martel), they have marked me for life.
+          </p>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up">
+        <div class="col-sm">
+          <h1 class="music"> My Music</h1>
+          <p class="music">
+            "Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything".
+            This is not different in my case, so I decided to share some of my favourite songs with you, dear visitor.
+            Some of these songs gave me energy to finish this web page.
+          </p>
+        </div>
+      </div>
+      <div id="frameA" class="row" data-aos="fade-up">
+        <iframe scrolling="no" frameborder="0" allowTransparency="true"
+          src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=ff0000&layout=&size=medium&type=playlist&id=1224646003&app_id=1"
+          width="100%" height="350"></iframe>
+      </div>
+      <div class="row" data-aos="zoom-out">
+        <div class="col-sm">
+          <h1 class="things">Where do I come from?</h1>
+          <p class="things">
+            Here I will show you some of the places were I have been. In these places I've learnt all what I know and
+            they
+            have given to me the best of my experiences. These are the places where I come from.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="mastfoot mt-auto">
+      <div class="inner row">
+        <div class="col-sm">
+          <p>Contact me! <a href="mailto:juferamos@outlook.com"><img title="Send me an email" class="email"
+                height="13rem" width="17rem" src="./images/email.png" alt="Email link"></a><a
+              href="https://github.com/jframos29" target="_blank"><img title="Watch my github page" class="email"
+                height="17rem" width="17rem" src="./images/github.png" alt="github link"></a></p>
+        </div>
+        <div class="col-sm">
+          <p id="despedida">A digito cognoscitur leo</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
