@@ -110,6 +110,10 @@ body {
   width: 100%;
 }
 
+.noMargin{
+  margin-bottom: 5%;
+}
+
 .fijo {
   text-align: center;
   margin: 0 auto;
