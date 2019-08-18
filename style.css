@@ -65,7 +65,7 @@ body {
 }
 
 .cover {
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0 1.5rem;
 }
 
@@ -92,6 +92,10 @@ body {
 
 .about-me {
   text-align: justify;
+}
+
+.about-me2{
+  margin-top: 5rem;
 }
 
 .music, .things, .photoContainer{
@@ -152,6 +156,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   animation: chev 1.8s ease-in-out infinite;
+}
+
+#div-chevron{
+  margin-top: 5rem;
 }
 
 @keyframes animate {
