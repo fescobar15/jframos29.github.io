@@ -1,4 +1,5 @@
 # jframos29.github.io: My own website (1st web development project)
+------
 This is my personal web page, part of the first project of Uniandes web development course (Fall 2019). 
 In this project I practiced (and increment) my skills with HTML, CSS and Javascript (including JQuery) and I had the opportunity to explore my abilities, achievements and my projects to show them in this web page.
 ------
@@ -13,6 +14,7 @@ In this project I practiced (and increment) my skills with HTML, CSS and Javascr
 #Screenshots
 ------
 #License
+------
 The MIT License (MIT)
 
 Copyright (c) 2019 Juan Felipe Ramos Correa
