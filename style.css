@@ -6,6 +6,10 @@ p {
   text-align: justify;
 }
 
+li {
+  list-style-image: url("./images/bullet.png");
+  }
+
 body {
   height: 100%;
   background-color: #000;
@@ -87,35 +91,37 @@ body {
 }
 
 main>.row {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .about-me {
   text-align: justify;
 }
 
-.about-me2{
+.about-me2 {
   margin-top: 5rem;
 }
 
-.projects{
+.projects {
   margin-top: 5rem;
   margin-bottom: 10rem;
 }
 
-.music, .things, .photoContainer{
+.music,
+.things,
+.photoContainer {
   text-align: center;
   margin: 0 auto;
   width: 100%;
 }
 
-.music2{
+.music2 {
   text-align: justify;
   margin: 0 auto;
   width: 100%;
 }
 
-.noMargin{
+.noMargin {
   margin-bottom: 5%;
 }
 
@@ -126,23 +132,36 @@ main>.row {
   height: 65vh;
 }
 
-#frameA {
+
+.came-from {
+  margin-bottom: 5%;
+}
+
+.came-from>h5{
+  margin-bottom: 5%;
+}
+
+.media-img{
+  height: 8rem;
+  width: 8rem;
+}
+
+#frameDeezer {
   text-align: center;
   margin: 0 auto;
   width: 100%;
   padding-bottom: 20vh;
 }
 
-#family_photo{
+#family_photo {
   max-height: 70vh;
 }
 
-#photo{
-  padding-bottom: 100vh;
-  margin-bottom: 100vh;
+#photos {
+  margin-bottom: 15%;
 }
 
-#despedida{
+#despedida {
   text-align: right;
   font-family: 'Amatic SC', cursive;
 }
@@ -160,19 +179,20 @@ main>.row {
   margin-left: 0.18rem;
 }
 
-#naviga, #naviga:focus{
+#naviga,
+#naviga:focus {
   color: #fff;
 }
 
 
-#img-chevron{
+#img-chevron {
   display: block;
   margin-left: auto;
   margin-right: auto;
   animation: chev 1.8s ease-in-out infinite;
 }
 
-#div-chevron{
+#div-chevron {
   margin-top: 5rem;
 }
 

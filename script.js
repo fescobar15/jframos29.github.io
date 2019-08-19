@@ -1,6 +1,6 @@
 "use strict";
 
-//Change abilities in welcome div
+//Change abilities text in welcome div
 function carga(){
   let jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
   let i=0;
@@ -26,7 +26,7 @@ function cambiar(){
     }, 1000);
 }
 
-//Change background color
+//Change background color (JQuery)
 function fondo() {
   $(window).scroll(function () {
      if ($(this).scrollTop() > 350) {
