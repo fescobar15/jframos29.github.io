@@ -14,8 +14,3 @@ function fondo() {
     }
   });
 }
-
-//Enable AOS
-$(function() {
-  AOS.init();
-});
