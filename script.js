@@ -27,7 +27,7 @@ function cambiar(){
     }
     document.getElementById("family_photo").setAttribute("src","./images/"+i+".jpg");
     i++;
-  }, 1000);
+  }, 2000);
 }
 
 //Change background color (JQuery)
