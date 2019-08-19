@@ -6,7 +6,7 @@ cambiar();
 fondo();
 //Change abilities text in welcome div
 function carga(){
-  let jobs = ["Developer", "Comm Engineer", "Music Lover", "Writer"];
+  let jobs = ["Developer","Electronics Engineer", "Communications Engineer", "Music Lover", "Writer", "Football Lover"];
   let i=0;
   setInterval(function(){
     if(i==jobs.length){
