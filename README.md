@@ -32,7 +32,13 @@ Juan Felipe Ramos Correa
 
 # Screenshots
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot5.png "About me initial page")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot.png "About me")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot2.png "Music")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot3.png "Places")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot4.png "Contact")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot6.png "Projects initial page")
+![alt text](https://github.com/jframos29/jframos29.github.io/blob/master/images/screenshot7.png "Projects")
 
 -----
 
