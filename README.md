@@ -18,7 +18,9 @@ Given that the project is hosted in Github pages you can easily access to the pr
 
 # Author
 
-Juan Felipe Ramos Correa [Github page](https://www.github.com/jframos29) [Personal webpage](https://jframos29.github.io)
+Juan Felipe Ramos Correa 
+[Github page](https://www.github.com/jframos29) 
+[Personal webpage](https://jframos29.github.io)
 
 -----
 
